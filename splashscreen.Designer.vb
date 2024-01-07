@@ -48,6 +48,7 @@ Partial Class splashscreen
         ' 
         lb_text.AutoSize = True
         lb_text.Font = New Font("Jellee Bold", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lb_text.ForeColor = Color.FromArgb(CByte(1), CByte(58), CByte(99))
         lb_text.Location = New Point(283, 194)
         lb_text.Name = "lb_text"
         lb_text.Size = New Size(235, 42)
@@ -58,6 +59,7 @@ Partial Class splashscreen
         ' 
         lb_percent.AutoSize = True
         lb_percent.Font = New Font("Jellee Bold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lb_percent.ForeColor = Color.FromArgb(CByte(1), CByte(58), CByte(99))
         lb_percent.Location = New Point(362, 365)
         lb_percent.Name = "lb_percent"
         lb_percent.Size = New Size(60, 28)
