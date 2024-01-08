@@ -23,20 +23,20 @@ Partial Class login
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(login))
-        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
         Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
@@ -61,11 +61,11 @@ Partial Class login
         Guna2PictureBox1.BackColor = Color.MediumBlue
         Guna2PictureBox1.BackgroundImage = CType(resources.GetObject("Guna2PictureBox1.BackgroundImage"), Image)
         Guna2PictureBox1.BorderRadius = 30
-        Guna2PictureBox1.CustomizableEdges = CustomizableEdges15
+        Guna2PictureBox1.CustomizableEdges = CustomizableEdges1
         Guna2PictureBox1.ImageRotate = 0F
         Guna2PictureBox1.Location = New Point(459, -5)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         Guna2PictureBox1.Size = New Size(455, 597)
         Guna2PictureBox1.TabIndex = 0
         Guna2PictureBox1.TabStop = False
@@ -74,7 +74,7 @@ Partial Class login
         ' 
         Guna2TextBox1.BackColor = Color.White
         Guna2TextBox1.BorderRadius = 8
-        Guna2TextBox1.CustomizableEdges = CustomizableEdges17
+        Guna2TextBox1.CustomizableEdges = CustomizableEdges3
         Guna2TextBox1.DefaultText = ""
         Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -82,40 +82,42 @@ Partial Class login
         Guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox1.Font = New Font("Jellee Bold", 9F, FontStyle.Bold)
-        Guna2TextBox1.ForeColor = Color.Black
+        Guna2TextBox1.ForeColor = Color.FromArgb(CByte(42), CByte(111), CByte(151))
         Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(491, 185)
-        Guna2TextBox1.Margin = New Padding(4)
+        Guna2TextBox1.Location = New Point(491, 196)
+        Guna2TextBox1.Margin = New Padding(5, 4, 5, 4)
         Guna2TextBox1.Name = "Guna2TextBox1"
         Guna2TextBox1.PasswordChar = ChrW(0)
+        Guna2TextBox1.PlaceholderForeColor = Color.FromArgb(CByte(44), CByte(125), CByte(160))
         Guna2TextBox1.PlaceholderText = "Username"
         Guna2TextBox1.SelectedText = ""
-        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges18
-        Guna2TextBox1.Size = New Size(358, 54)
+        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        Guna2TextBox1.Size = New Size(358, 49)
         Guna2TextBox1.TabIndex = 2
         ' 
         ' Guna2TextBox2
         ' 
         Guna2TextBox2.BackColor = Color.White
         Guna2TextBox2.BorderRadius = 8
-        Guna2TextBox2.CustomizableEdges = CustomizableEdges19
+        Guna2TextBox2.CustomizableEdges = CustomizableEdges5
         Guna2TextBox2.DefaultText = ""
         Guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Guna2TextBox2.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         Guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Font = New Font("Jellee Bold", 9F, FontStyle.Bold)
-        Guna2TextBox2.ForeColor = Color.Black
+        Guna2TextBox2.Font = New Font("Jellee Bold", 9F)
+        Guna2TextBox2.ForeColor = Color.FromArgb(CByte(42), CByte(111), CByte(151))
         Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Location = New Point(491, 265)
-        Guna2TextBox2.Margin = New Padding(4)
+        Guna2TextBox2.Location = New Point(491, 270)
+        Guna2TextBox2.Margin = New Padding(5, 4, 5, 4)
         Guna2TextBox2.Name = "Guna2TextBox2"
         Guna2TextBox2.PasswordChar = "*"c
+        Guna2TextBox2.PlaceholderForeColor = Color.FromArgb(CByte(44), CByte(125), CByte(160))
         Guna2TextBox2.PlaceholderText = "Password"
         Guna2TextBox2.SelectedText = ""
-        Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges20
-        Guna2TextBox2.Size = New Size(358, 54)
+        Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        Guna2TextBox2.Size = New Size(358, 49)
         Guna2TextBox2.TabIndex = 3
         ' 
         ' Label1
@@ -137,7 +139,7 @@ Partial Class login
         loginSubmitBtn.BorderRadius = 15
         loginSubmitBtn.BorderThickness = 2
         loginSubmitBtn.Cursor = Cursors.Hand
-        loginSubmitBtn.CustomizableEdges = CustomizableEdges21
+        loginSubmitBtn.CustomizableEdges = CustomizableEdges7
         loginSubmitBtn.DisabledState.BorderColor = Color.DarkGray
         loginSubmitBtn.DisabledState.CustomBorderColor = Color.DarkGray
         loginSubmitBtn.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -150,7 +152,7 @@ Partial Class login
         loginSubmitBtn.HoverState.Font = New Font("Jellee Bold", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         loginSubmitBtn.Location = New Point(583, 391)
         loginSubmitBtn.Name = "loginSubmitBtn"
-        loginSubmitBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        loginSubmitBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         loginSubmitBtn.Size = New Size(174, 69)
         loginSubmitBtn.TabIndex = 5
         loginSubmitBtn.Text = "Submit"
@@ -196,13 +198,13 @@ Partial Class login
         ' Guna2PictureBox2
         ' 
         Guna2PictureBox2.BackColor = Color.FromArgb(CByte(1), CByte(73), CByte(124))
-        Guna2PictureBox2.CustomizableEdges = CustomizableEdges23
+        Guna2PictureBox2.CustomizableEdges = CustomizableEdges9
         Guna2PictureBox2.FillColor = Color.FromArgb(CByte(1), CByte(73), CByte(124))
         Guna2PictureBox2.Image = CType(resources.GetObject("Guna2PictureBox2.Image"), Image)
         Guna2PictureBox2.ImageRotate = 0F
         Guna2PictureBox2.Location = New Point(12, 81)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         Guna2PictureBox2.Size = New Size(417, 419)
         Guna2PictureBox2.SizeMode = PictureBoxSizeMode.CenterImage
         Guna2PictureBox2.TabIndex = 9
@@ -212,12 +214,12 @@ Partial Class login
         ' 
         loginCloseBtn.BackColor = Color.White
         loginCloseBtn.Cursor = Cursors.Hand
-        loginCloseBtn.CustomizableEdges = CustomizableEdges25
+        loginCloseBtn.CustomizableEdges = CustomizableEdges11
         loginCloseBtn.Image = CType(resources.GetObject("loginCloseBtn.Image"), Image)
         loginCloseBtn.ImageRotate = 0F
         loginCloseBtn.Location = New Point(841, 12)
         loginCloseBtn.Name = "loginCloseBtn"
-        loginCloseBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        loginCloseBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         loginCloseBtn.Size = New Size(32, 32)
         loginCloseBtn.SizeMode = PictureBoxSizeMode.AutoSize
         loginCloseBtn.TabIndex = 10
@@ -234,7 +236,7 @@ Partial Class login
         loginAdminRadioBtn.Font = New Font("Jellee Bold", 9F, FontStyle.Bold)
         loginAdminRadioBtn.Location = New Point(565, 137)
         loginAdminRadioBtn.Name = "loginAdminRadioBtn"
-        loginAdminRadioBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges27
+        loginAdminRadioBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges13
         loginAdminRadioBtn.Size = New Size(25, 25)
         loginAdminRadioBtn.TabIndex = 12
         loginAdminRadioBtn.Text = "Admin"
@@ -253,7 +255,7 @@ Partial Class login
         loginUserRadioBtn.Font = New Font("Jellee Bold", 9F, FontStyle.Bold)
         loginUserRadioBtn.Location = New Point(683, 137)
         loginUserRadioBtn.Name = "loginUserRadioBtn"
-        loginUserRadioBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges28
+        loginUserRadioBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         loginUserRadioBtn.Size = New Size(25, 25)
         loginUserRadioBtn.TabIndex = 13
         loginUserRadioBtn.Text = "Admin"
