@@ -39,8 +39,6 @@ Partial Class signup
         Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
         Label1 = New Label()
@@ -51,14 +49,12 @@ Partial Class signup
         signupSubmitBtn = New Guna.UI2.WinForms.Guna2Button()
         Label2 = New Label()
         Label3 = New Label()
-        signupCloseBtn = New Guna.UI2.WinForms.Guna2PictureBox()
         signupUserRadioBtn = New Guna.UI2.WinForms.Guna2CustomRadioButton()
         signupAdminRadioBtn = New Guna.UI2.WinForms.Guna2CustomRadioButton()
         Label4 = New Label()
         Label5 = New Label()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
-        CType(signupCloseBtn, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Guna2PictureBox1
@@ -213,7 +209,7 @@ Partial Class signup
         signupSubmitBtn.HoverState.BorderColor = Color.Blue
         signupSubmitBtn.HoverState.FillColor = Color.FromArgb(CByte(42), CByte(111), CByte(151))
         signupSubmitBtn.HoverState.Font = New Font("Jellee Bold", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        signupSubmitBtn.Location = New Point(115, 395)
+        signupSubmitBtn.Location = New Point(115, 392)
         signupSubmitBtn.Name = "signupSubmitBtn"
         signupSubmitBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         signupSubmitBtn.Size = New Size(142, 59)
@@ -245,21 +241,6 @@ Partial Class signup
         Label3.TabIndex = 9
         Label3.Text = "Log In"
         ' 
-        ' signupCloseBtn
-        ' 
-        signupCloseBtn.Cursor = Cursors.Hand
-        signupCloseBtn.CustomizableEdges = CustomizableEdges15
-        signupCloseBtn.Image = CType(resources.GetObject("signupCloseBtn.Image"), Image)
-        signupCloseBtn.ImageRotate = 0F
-        signupCloseBtn.Location = New Point(823, 15)
-        signupCloseBtn.Name = "signupCloseBtn"
-        signupCloseBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges16
-        signupCloseBtn.Size = New Size(32, 32)
-        signupCloseBtn.SizeMode = PictureBoxSizeMode.AutoSize
-        signupCloseBtn.TabIndex = 10
-        signupCloseBtn.TabStop = False
-        signupCloseBtn.Tag = "Close"
-        ' 
         ' signupUserRadioBtn
         ' 
         signupUserRadioBtn.BackColor = Color.White
@@ -270,7 +251,7 @@ Partial Class signup
         signupUserRadioBtn.Font = New Font("Jellee Bold", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         signupUserRadioBtn.Location = New Point(208, 90)
         signupUserRadioBtn.Name = "signupUserRadioBtn"
-        signupUserRadioBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges17
+        signupUserRadioBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges15
         signupUserRadioBtn.Size = New Size(25, 25)
         signupUserRadioBtn.TabIndex = 12
         signupUserRadioBtn.Text = "User"
@@ -289,7 +270,7 @@ Partial Class signup
         signupAdminRadioBtn.Font = New Font("Jellee Bold", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         signupAdminRadioBtn.Location = New Point(62, 90)
         signupAdminRadioBtn.Name = "signupAdminRadioBtn"
-        signupAdminRadioBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        signupAdminRadioBtn.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         signupAdminRadioBtn.Size = New Size(25, 25)
         signupAdminRadioBtn.TabIndex = 11
         signupAdminRadioBtn.Text = "Admin"
@@ -328,12 +309,10 @@ Partial Class signup
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(1), CByte(73), CByte(124))
         ClientSize = New Size(867, 571)
-        ControlBox = False
         Controls.Add(Label5)
         Controls.Add(Label4)
         Controls.Add(signupUserRadioBtn)
         Controls.Add(signupAdminRadioBtn)
-        Controls.Add(signupCloseBtn)
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(signupSubmitBtn)
@@ -344,13 +323,12 @@ Partial Class signup
         Controls.Add(Label1)
         Controls.Add(Guna2PictureBox2)
         Controls.Add(Guna2PictureBox1)
-        FormBorderStyle = FormBorderStyle.None
+        FormBorderStyle = FormBorderStyle.Fixed3D
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "signup"
         StartPosition = FormStartPosition.CenterScreen
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).EndInit()
-        CType(signupCloseBtn, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -372,7 +350,6 @@ Partial Class signup
     Friend WithEvents Label5 As Label
     Friend WithEvents closeBtn As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents signupSubmitBtn As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents signupCloseBtn As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents signupUserRadioBtn As Guna.UI2.WinForms.Guna2CustomRadioButton
     Friend WithEvents signupAdminRadioBtn As Guna.UI2.WinForms.Guna2CustomRadioButton
 End Class

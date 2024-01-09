@@ -6,7 +6,8 @@
         Me.Hide()
     End Sub
 
-    Private Sub Guna2PictureBox3_Click(sender As Object, e As EventArgs) Handles Guna2PictureBox3.Click, closeBtn.Click, signupCloseBtn.Click
-        Close()
+    Private Sub signupSubmitBtn_Click(sender As Object, e As EventArgs) Handles signupSubmitBtn.Click
+        login.Show()
+        Me.Hide()
     End Sub
 End Class

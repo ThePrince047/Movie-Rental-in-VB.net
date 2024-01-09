@@ -87,7 +87,7 @@ Partial Class splashscreen
         Controls.Add(Guna2PictureBox1)
         Controls.Add(lb_percent)
         Controls.Add(ProgressBar1)
-        FormBorderStyle = FormBorderStyle.None
+        FormBorderStyle = FormBorderStyle.Fixed3D
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
         MaximizeBox = False
         Name = "splashscreen"
