@@ -69,5 +69,45 @@ Namespace My.Resources
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property closeBW() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("closeBW", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property closeW() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("closeW", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property ezgif_com_resize() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("ezgif.com-resize", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property loading_gif() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("loading gif", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
     End Module
 End Namespace

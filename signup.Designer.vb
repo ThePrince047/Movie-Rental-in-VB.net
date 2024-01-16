@@ -22,10 +22,10 @@ Partial Class signup
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        components = New ComponentModel.Container()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(signup))
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -39,6 +39,9 @@ Partial Class signup
         Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(signup))
         Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
         Label1 = New Label()
@@ -53,8 +56,11 @@ Partial Class signup
         signupAdminRadioBtn = New Guna.UI2.WinForms.Guna2CustomRadioButton()
         Label4 = New Label()
         Label5 = New Label()
+        Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
+        Guna2PictureBox4 = New Guna.UI2.WinForms.Guna2PictureBox()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Guna2PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Guna2PictureBox1
@@ -73,7 +79,7 @@ Partial Class signup
         ' 
         Guna2PictureBox2.CustomizableEdges = CustomizableEdges3
         Guna2PictureBox2.FillColor = Color.FromArgb(CByte(1), CByte(73), CByte(124))
-        Guna2PictureBox2.Image = CType(resources.GetObject("Guna2PictureBox2.Image"), Image)
+        Guna2PictureBox2.Image = My.Resources.Resources.ezgif_com_resize
         Guna2PictureBox2.ImageRotate = 0F
         Guna2PictureBox2.Location = New Point(424, 90)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
@@ -303,12 +309,32 @@ Partial Class signup
         Label5.TabIndex = 14
         Label5.Text = "User"
         ' 
+        ' Guna2Elipse1
+        ' 
+        Guna2Elipse1.BorderRadius = 8
+        Guna2Elipse1.TargetControl = Me
+        ' 
+        ' Guna2PictureBox4
+        ' 
+        Guna2PictureBox4.CustomizableEdges = CustomizableEdges17
+        Guna2PictureBox4.FillColor = Color.FromArgb(CByte(1), CByte(73), CByte(124))
+        Guna2PictureBox4.Image = My.Resources.Resources.closeW
+        Guna2PictureBox4.ImageRotate = 0F
+        Guna2PictureBox4.Location = New Point(829, 9)
+        Guna2PictureBox4.Name = "Guna2PictureBox4"
+        Guna2PictureBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        Guna2PictureBox4.Size = New Size(32, 32)
+        Guna2PictureBox4.SizeMode = PictureBoxSizeMode.AutoSize
+        Guna2PictureBox4.TabIndex = 15
+        Guna2PictureBox4.TabStop = False
+        ' 
         ' signup
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(1), CByte(73), CByte(124))
         ClientSize = New Size(867, 571)
+        Controls.Add(Guna2PictureBox4)
         Controls.Add(Label5)
         Controls.Add(Label4)
         Controls.Add(signupUserRadioBtn)
@@ -323,12 +349,13 @@ Partial Class signup
         Controls.Add(Label1)
         Controls.Add(Guna2PictureBox2)
         Controls.Add(Guna2PictureBox1)
-        FormBorderStyle = FormBorderStyle.Fixed3D
+        FormBorderStyle = FormBorderStyle.None
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "signup"
         StartPosition = FormStartPosition.CenterScreen
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(Guna2PictureBox4, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -352,4 +379,6 @@ Partial Class signup
     Friend WithEvents signupSubmitBtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents signupUserRadioBtn As Guna.UI2.WinForms.Guna2CustomRadioButton
     Friend WithEvents signupAdminRadioBtn As Guna.UI2.WinForms.Guna2CustomRadioButton
+    Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
+    Friend WithEvents Guna2PictureBox4 As Guna.UI2.WinForms.Guna2PictureBox
 End Class

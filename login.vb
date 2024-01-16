@@ -16,5 +16,7 @@ Public Class login
         Me.Hide()
     End Sub
 
-
+    Private Sub Guna2PictureBox3_Click(sender As Object, e As EventArgs) Handles Guna2PictureBox3.Click
+        Application.Exit()
+    End Sub
 End Class

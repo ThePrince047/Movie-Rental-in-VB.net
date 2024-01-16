@@ -3,8 +3,12 @@
 
     End Sub
 
-    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
-        login.Show()
+    Private Sub Guna2PictureBox1_Click(sender As Object, e As EventArgs) Handles Guna2PictureBox1.Click
+        Application.Exit()
+    End Sub
+
+    Private Sub Guna2PictureBox2_Click(sender As Object, e As EventArgs) Handles Guna2PictureBox2.Click
         Me.Hide()
+        login.Show()
     End Sub
 End Class

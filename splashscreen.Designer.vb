@@ -26,20 +26,21 @@ Partial Class splashscreen
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(splashscreen))
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(splashscreen))
         ProgressBar1 = New Guna.UI2.WinForms.Guna2ProgressBar()
         lb_percent = New Label()
         Timer1 = New Timer(components)
         Timer2 = New Timer(components)
         Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' ProgressBar1
         ' 
         ProgressBar1.CustomizableEdges = CustomizableEdges1
-        ProgressBar1.Location = New Point(206, 400)
+        ProgressBar1.Location = New Point(152, 446)
         ProgressBar1.Name = "ProgressBar1"
         ProgressBar1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         ProgressBar1.Size = New Size(375, 38)
@@ -52,7 +53,7 @@ Partial Class splashscreen
         lb_percent.AutoSize = True
         lb_percent.Font = New Font("Jellee Bold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lb_percent.ForeColor = Color.FromArgb(CByte(1), CByte(58), CByte(99))
-        lb_percent.Location = New Point(362, 365)
+        lb_percent.Location = New Point(317, 415)
         lb_percent.Name = "lb_percent"
         lb_percent.Size = New Size(60, 28)
         lb_percent.TabIndex = 2
@@ -69,9 +70,9 @@ Partial Class splashscreen
         ' Guna2PictureBox1
         ' 
         Guna2PictureBox1.CustomizableEdges = CustomizableEdges3
-        Guna2PictureBox1.Image = CType(resources.GetObject("Guna2PictureBox1.Image"), Image)
+        Guna2PictureBox1.Image = My.Resources.Resources.loading_gif
         Guna2PictureBox1.ImageRotate = 0F
-        Guna2PictureBox1.Location = New Point(206, 73)
+        Guna2PictureBox1.Location = New Point(152, 93)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
         Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         Guna2PictureBox1.Size = New Size(375, 250)
@@ -79,15 +80,20 @@ Partial Class splashscreen
         Guna2PictureBox1.TabIndex = 3
         Guna2PictureBox1.TabStop = False
         ' 
+        ' Guna2Elipse1
+        ' 
+        Guna2Elipse1.BorderRadius = 8
+        Guna2Elipse1.TargetControl = Me
+        ' 
         ' splashscreen
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
+        ClientSize = New Size(699, 496)
         Controls.Add(Guna2PictureBox1)
         Controls.Add(lb_percent)
         Controls.Add(ProgressBar1)
-        FormBorderStyle = FormBorderStyle.Fixed3D
+        FormBorderStyle = FormBorderStyle.None
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
         MaximizeBox = False
         Name = "splashscreen"
@@ -103,4 +109,5 @@ Partial Class splashscreen
     Friend WithEvents Timer1 As Timer
     Friend WithEvents Timer2 As Timer
     Friend WithEvents Guna2PictureBox1 As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
 End Class

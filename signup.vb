@@ -10,4 +10,8 @@
         login.Show()
         Me.Hide()
     End Sub
+
+    Private Sub Guna2PictureBox4_Click(sender As Object, e As EventArgs) Handles Guna2PictureBox4.Click
+        Application.Exit()
+    End Sub
 End Class
