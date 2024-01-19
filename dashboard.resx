@@ -124,7 +124,7 @@
   <data name="Guna2PictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAABC9JREFUWEftVktvE1cUzqbd0xeli/6EbinqosR2wLFjx4njPElSIiBx2ySGpGVB
+        DQAACw0B7QfALAAABC9JREFUWEftVktvE1cUzqbd0xeli/6EbinqosR2wLFjx4njPElSIiBx2ySGpGVB
         GyqlOEiogKqIlroKFrQbFy+6a2jVbiqQWkLUKoWQZOyxh9gOwbFnbINdhA73TO6M5nEdAogFEp/0SSPf
         c77v3Ne5rnmB5xLFYvFNURR3SJLUhMTvQqGwlQ4/GxCDN/KSdJSYzYqSBEyK4jUSM0aKep2mPT0A4GUU
         JQaSYvTPv3Nw/vwFOHnqNHx18hREfroIPM9rixFJzmeYS2WeDGRGrxL+oQjnRRHGx7+E9o4uE3t690Lk
@@ -1277,4 +1277,10 @@
         //////////////////////////////////8=
 </value>
   </data>
+  <metadata name="ImageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>162, 17</value>
+  </metadata>
+  <metadata name="Guna2DragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>294, 17</value>
+  </metadata>
 </root>
